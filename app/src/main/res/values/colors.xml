@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    //PALETA DE COLORES
+    <color name="blanco">#FFFFFFFF</color>
+    <color name="verdeFuerte">#006414</color>
+    <color name="verdeMedio">#009929</color>
+    <color name="verdeSuave">#5ccb5f</color>
+    <color name="gris">#838E73</color>
+</resources>
