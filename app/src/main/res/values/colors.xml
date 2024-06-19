@@ -7,4 +7,9 @@
     <color name="verdeMedio">#009929</color>
     <color name="verdeSuave">#5ccb5f</color>
     <color name="gris">#838E73</color>
+
+    //shape color
+    <color name="gradienteuno">#009929</color>
+    <color name="gradientedos">#006414</color>
+
 </resources>

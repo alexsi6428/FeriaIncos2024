@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verdeSuave"
+    tools:context=".Seccion_Reciclabes_Activity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/shape_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/blanco"
+            android:textSize="35sp"
+            android:text="@string/TituloLogoApp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/LogoId"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="15dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/LogoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/img" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/framepapel"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/gradientedos"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/LogoId" >
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="63dp"
+                android:layout_height="60dp"
+                android:background="@color/gradientedos"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Papel Carton"
+                android:background="@drawable/shape_logo"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                />
+        </FrameLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+

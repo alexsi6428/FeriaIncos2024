@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Feria</string>
     //PRIMERA CAPA ACTIVITY_MAIN
+    //Nombre de la aplicacion
+    <string name="TituloLogoApp">GREENLAND</string>
     <string name="tvTituloAM">GREENLAND</string>
     <string name="tvNova">Desarrollado por Nova, 2024</string>
 </resources>
