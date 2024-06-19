@@ -15,9 +15,7 @@
         <activity
             android:name=".Seccion_Reciclabes_Activity"
             android:exported="false" />
-        <activity
-            android:name=".txtActivity"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

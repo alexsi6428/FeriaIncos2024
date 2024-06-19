@@ -1,76 +1,353 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/verdeSuave"
     tools:context=".Seccion_Reciclabes_Activity">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:background="@drawable/shape_logo"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textColor="@color/blanco"
-            android:textSize="35sp"
-            android:text="@string/TituloLogoApp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/LogoId"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="15dp"
-            />
-
+        <!-- Fondo con imagen y texto "Reciclables" -->
         <LinearLayout
             android:id="@+id/LogoId"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            android:background="@drawable/shape_logo"
+            android:gravity="center_vertical"
+            android:padding="16dp">
 
             <ImageView
                 android:id="@+id/logo"
                 android:layout_width="100dp"
                 android:layout_height="80dp"
                 android:src="@drawable/img" />
-        </LinearLayout>
 
-        <FrameLayout
-            android:id="@+id/framepapel"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="32dp"
-            android:background="@color/gradientedos"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/LogoId" >
-
-            <ImageButton
-                android:id="@+id/imageButton"
-                android:layout_width="63dp"
-                android:layout_height="60dp"
-                android:background="@color/gradientedos"
-                android:layout_gravity="center"
-                android:layout_marginBottom="25dp"
-                />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Papel Carton"
-                android:background="@drawable/shape_logo"
-                android:layout_gravity="center"
-                android:layout_marginTop="30dp"
-                />
-        </FrameLayout>
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="35sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Reciclables"
+                android:layout_marginStart="10dp" />
+        </LinearLayout>
+
+        <!-- Contenedor para los CardView -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="4"
+            android:columnCount="2"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins"
+            android:useDefaultMargins="true">
+
+            <!-- Primer CardView -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/img"
+                        android:contentDescription="Icono 1" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button1"
+                        android:textSize="19dp"
+                        android:background="@android:color/white"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Segundo CardView -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/reciclar1"
+                        android:contentDescription="Icono 2" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button2"
+                        android:textSize="19dp"
+                        android:background="@android:color/white"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/reciclar1"
+                        android:contentDescription="Icono 2" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button2"
+                        android:textSize="19dp"
+                        android:background="@android:color/white"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/reciclar1"
+                        android:contentDescription="Icono 2" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button2"
+                        android:textSize="19dp"
+                        android:background="@android:color/white"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/reciclar1"
+                        android:contentDescription="Icono 2" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button2"
+                        android:textSize="19dp"
+                        android:background="@android:color/white"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/reciclar1"
+                        android:contentDescription="Icono 2" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button2"
+                        android:textSize="19dp"
+                        android:background="@android:color/white"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/reciclar1"
+                        android:contentDescription="Icono 2" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button2"
+                        android:textSize="19dp"
+                        android:background="@android:color/white"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/reciclar1"
+                        android:contentDescription="Icono 2" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button2"
+                        android:textSize="19dp"
+                        android:background="@android:color/white"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/reciclar1"
+                        android:contentDescription="Icono 2" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button2"
+                        android:textSize="19dp"
+                        android:background="@android:color/white"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/reciclar1"
+                        android:contentDescription="Icono 2" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button2"
+                        android:textSize="19dp"
+                        android:background="@android:color/white"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
 
+</ScrollView>
