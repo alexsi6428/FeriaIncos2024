@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Fondo con imagen y texto "Reciclables" -->
         <LinearLayout
             android:id="@+id/LogoId"
             android:layout_width="match_parent"
@@ -39,7 +38,6 @@
                 android:layout_marginStart="10dp" />
         </LinearLayout>
 
-        <!-- Contenedor para los CardView -->
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -82,7 +80,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Segundo CardView -->
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
                 android:layout_height="150dp"
