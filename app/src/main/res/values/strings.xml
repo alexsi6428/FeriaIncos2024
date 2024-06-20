@@ -12,6 +12,11 @@
     <string name="tvEnvaseDeComida">Envase de Comida</string>
     <string name="tvInfeccioso">Envases Infecciosos</string>
     <string name="tvPorcelana">Productos de Porcelana</string>
+    //DESCRIPCION DE ICONOS EN NO RECICLAR
+    <string name="desBolsaPlastica">Bolsas usadas</string>
+    <string name="desBolsaPapel">Envoltorios de comida rapida</string>
+    <string name="desInfeccion">Articulos medicos usados</string>
+    <string name="desPorcelana">Articulos de porcelana rotos dañados</string>
     //BOLSA PLASTICA
     <string name="tvTituloBolsa">BOLSA PLASTICA</string>
 </resources>

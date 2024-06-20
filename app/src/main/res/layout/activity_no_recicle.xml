@@ -76,7 +76,7 @@
                     android:layout_gravity="top|center_horizontal"
                     android:src="@drawable/ico_bolsa_plastica"
                     android:translationY="-15dp"
-                    android:contentDescription="imagen de bolsa"/>
+                    android:contentDescription="@string/desBolsaPlastica"/>
             </FrameLayout>
 
             <FrameLayout
@@ -114,7 +114,7 @@
                     android:src="@drawable/ico_envase_comida"
                     android:layout_gravity="top|center_horizontal"
                     android:translationY="-15dp"
-                    android:contentDescription="bolsa de papel grasas"/>
+                    android:contentDescription="@string/desBolsaPapel"/>
             </FrameLayout>
 
             <FrameLayout
@@ -153,7 +153,7 @@
                     android:src="@drawable/ico_envase_infeccioso"
                     android:layout_gravity="top|center_horizontal"
                     android:translationY="-15dp"
-                    android:contentDescription="articulos medicos"/>
+                    android:contentDescription="@string/desInfeccion"/>
 
             </FrameLayout>
 
@@ -193,7 +193,7 @@
                     android:src="@drawable/ico_producto_porcelana"
                     android:layout_gravity="top|center_horizontal"
                     android:translationY="-15dp"
-                    android:contentDescription="articulos de porcelana"/>
+                    android:contentDescription="@string/desPorcelana"/>
             </FrameLayout>
 
         </androidx.gridlayout.widget.GridLayout>
