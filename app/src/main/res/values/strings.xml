@@ -5,4 +5,13 @@
     <string name="TituloLogoApp">GREENLAND</string>
     <string name="tvTituloAM">GREENLAND</string>
     <string name="tvNova">Desarrollado por Nova, 2024</string>
+    //SECCION NO RECICLAR
+    <string name="tvGreenLand">GREENLAND</string>
+    <string name="tvNoReciclar">No Reciclables</string>
+    <string name="tvBolsasPlasticas">Bolsas Plasticas</string>
+    <string name="tvEnvaseDeComida">Envase de Comida</string>
+    <string name="tvInfeccioso">Envases Infecciosos</string>
+    <string name="tvPorcelana">Productos de Porcelana</string>
+    //BOLSA PLASTICA
+    <string name="tvTituloBolsa">BOLSA PLASTICA</string>
 </resources>

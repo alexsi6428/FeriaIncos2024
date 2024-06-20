@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".NoRecicleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/verdeFuerte"
+            android:textColor="@color/blanco"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:text="@string/tvGreenLand" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/verdeFuerte"
+            android:textStyle="bold"
+            android:textColor="@color/blanco"
+            android:textSize="35sp"
+            android:text="@string/tvNoReciclar" />
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginTop="50dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            app:alignmentMode="alignMargins"
+            app:columnCount="2"
+            app:rowCount="2">
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/degradado_iconos"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+                    <Button
+                        android:id="@+id/button16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginTop="60dp"
+                        android:backgroundTint="@color/verdeFuerte"
+                        android:text="@string/tvBolsasPlasticas"
+                        android:textColor="@color/blanco"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:src="@drawable/ico_bolsa_plastica"
+                    android:translationY="-15dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/degradado_iconos"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/button17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginTop="60dp"
+                        android:backgroundTint="@color/verdeFuerte"
+                        android:text="@string/tvEnvaseDeComida"
+                        android:textColor="@color/blanco"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/img32"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ico_envase_comida"
+                    android:layout_gravity="top|center_horizontal"
+                    android:translationY="-15dp"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/degradado_iconos"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/button19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginTop="60dp"
+                        android:backgroundTint="@color/verdeFuerte"
+                        android:text="@string/tvInfeccioso"
+                        android:textColor="@color/blanco"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/imagen42"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ico_envase_infeccioso"
+                    android:layout_gravity="top|center_horizontal"
+                    android:translationY="-15dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/degradado_iconos"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/button20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginTop="60dp"
+                        android:backgroundTint="@color/verdeFuerte"
+                        android:text="@string/tvPorcelana"
+                        android:textColor="@color/blanco"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/imagen52"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ico_producto_porcelana"
+                    android:layout_gravity="top|center_horizontal"
+                    android:translationY="-15dp"/>
+            </FrameLayout>
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

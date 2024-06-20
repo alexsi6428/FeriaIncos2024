@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Feria"
         tools:targetApi="31">
         <activity
+            android:name=".BolsaPlasticaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoRecicleActivity"
+            android:exported="false" />
+        <activity
             android:name=".Seccion_Reciclabes_Activity"
             android:exported="false" />
         <activity
