@@ -75,7 +75,8 @@
                     android:layout_height="100dp"
                     android:layout_gravity="top|center_horizontal"
                     android:src="@drawable/ico_bolsa_plastica"
-                    android:translationY="-15dp" />
+                    android:translationY="-15dp"
+                    />
             </FrameLayout>
 
             <FrameLayout
