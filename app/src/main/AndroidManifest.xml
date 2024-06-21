@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Feria"
         tools:targetApi="31">
         <activity
+            android:name=".nueva_actividad"
+            android:exported="false" />
+        <activity
             android:name=".BolsaPlasticaActivity"
             android:exported="false" />
         <activity
