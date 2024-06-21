@@ -19,4 +19,97 @@
     <string name="desPorcelana">Articulos de porcelana rotos dañados</string>
     //BOLSA PLASTICA
     <string name="tvTituloBolsa">BOLSA PLASTICA</string>
+    <string name="desc_horizontal_scroll_view">desc_horizontal_scroll_view</string>
+
+    //pichon
+    //PRIMERA CAPA ACTIVITY_MAIN
+    <string name="tvTituloAM">GREENLAND</string>
+    <string name="tvNova">Desarrollado por Nova, 2024</string>
+
+    //capa de porque
+    <string name="tvPorque">PORQUE?</string>
+    <string name="tvRecicla">Porque protege nuestro planeta, conserva recursos preciosos y reduce la contaminación. Cada acción cuenta para un futuro más limpio y sostenible para todos.</string>
+    <string name="btnSiguiente">SIGUIENTE</string>
+    //capa de recicla
+    <string name="tvRecicla1">¡RECICLA!</string>
+    <string name="tvCadaBotella">Cada botella cuenta.</string>
+    <string name="tvCadaAccion">Cada accion suma.</string>
+    <string name="tvCadaPequeño">Cada pequeño gesto cuenta en la protección de nuestro planeta.</string>
+    <string name="btnSiguiente1">SIGUIENTE</string>
+
+    //capa mision vision
+    <string name="tvMision">MISION</string>
+    <string name="tvmision1">Transformar nuestra forma de consumir y desechar, promoviendo la reutilización de
+        materiales para conservar recursos naturales, reducir la contaminación y crear un entorno más saludable y sostenible
+        para las generaciones futuras.</string>
+    <string name="tvVision">VISION</string>
+    <string name="tvvision1">Alcanzar un mundo donde el ciclo de vida de los materiales sea circular y sostenible.
+        Esto implica que todos los productos sean diseñados
+        para ser reciclados fácilmente, que se minimice la generación de residuos y que se maximice la recuperación de recursos.</string>
+    <string name="btnSiguiente2">SIGUIENTE</string>
+
+    //capa de formulario de emprendedor
+    <string name="tvBienvenido">Bienvenido</string>
+    <string name="tvEmprendedor">Emprendor</string>
+    <string name="tvNombre">Nombre:</string>
+    <string name="edtNombre"></string>
+    <string name="tvDireccion">Direccion:</string>
+    <string name="edtDireccion"></string>
+    <string name="tvCI">CI/Nit:</string>
+    <string name="edtCI"></string>
+    <string name="tvTelefono1">Telefono 1:</string>
+    <string name="edtTelefono1"></string>
+    <string name="tvTelefono2">Telefono 2:</string>
+    <string name="edtTelefono2"></string>
+    <string name="tvDirecodecrip">Descripcion del producto:</string>
+    <string name="edtDireco"></string>
+
+    //subir imagen o buscar imagen
+    <string name="tvSubirFoto">Subir Foto:</string>
+    <string name="btnBuscarImagen">Buscar imagen</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnVolver">Volver</string>
+
+    //capa de formulario reciclador
+
+    <string name="tvNombreReci">Nombre:</string>
+    <string name="edtNombreReci"></string>
+    <string name="tvDireccionReci">Direccion:</string>
+    <string name="edtDireccionReci"></string>
+    <string name="tvCIREci">CI/Nit:</string>
+    <string name="edtCIReci"></string>
+    <string name="tvTelefono1Reci">Telefono 1:</string>
+    <string name="edtTelefono1Reci"></string>
+    <string name="tvTelefono2Reci">Telefono 2:</string>
+    <string name="edtTelefono2Reci"></string>
+
+
+    //subir imagen o buscar imagen
+    <string name="tvSubirFotoReci">Subir Foto:</string>
+    <string name="btnBuscarImagenReci">Buscar imagen</string>
+    <string name="btnRegistrarReci">Registrar</string>
+    <string name="btnVolverReci">Volver</string>
+
+    //capa de formulario Recolector
+
+    <string name="tvNombreR">Nombre:</string>
+    <string name="edtNombreR"></string>
+    <string name="tvDireccionR">Direccion:</string>
+    <string name="edtDireccionR"></string>
+    <string name="tvCIR">CI/Nit:</string>
+    <string name="edtCIR"></string>
+    <string name="tvTelefono1R">Telefono 1:</string>
+    <string name="edtTelefono1R"></string>
+    <string name="tvTelefono2R">Telefono 2:</string>
+    <string name="edtTelefono2R"></string>
+    <string name="tvAcopiosR">Acopios relacionados:</string>
+    <string name="edtDirecoR"></string>
+    <string name="edtDireco1R"></string>
+    <string name="edtDireco2R"></string>
+
+    //subir imagen o buscar imagen
+    <string name="tvSubirFotoR">Subir Foto:</string>
+    <string name="btnBuscarImagenR">Buscar imagen</string>
+    <string name="btnRegistrarR">Registrar</string>
+    <string name="btnVolverR">Volver</string>
 </resources>

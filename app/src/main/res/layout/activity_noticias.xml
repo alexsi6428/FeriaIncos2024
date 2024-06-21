@@ -37,7 +37,10 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="585dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,8 +49,7 @@
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:contentDescription="@string/desc_horizontal_scroll_view">
+                android:layout_height="200dp">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -128,7 +130,7 @@
                             <ImageView
                                 android:id="@+id/imageView5"
                                 android:layout_width="200dp"
-                                android:layout_height="wrap_content"
+                                android:layout_height="200dp"
                                 android:src="@drawable/n_1" />
 
                             <LinearLayout
@@ -142,7 +144,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_margin="10dp"
                                     android:fontFamily="@font/montserrat_italic"
-                                    android:text="Recicla ses de casa"
+                                    android:text="Recicla deses de casa"
                                     android:textSize="16dp" />
 
                                 <TextView
@@ -179,7 +181,7 @@
                             <ImageView
                                 android:id="@+id/image"
                                 android:layout_width="200dp"
-                                android:layout_height="wrap_content"
+                                android:layout_height="200dp"
                                 android:src="@drawable/n_2" />
 
                             <LinearLayout
@@ -311,8 +313,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="70dp"
-                                    android:textColor="@color/verdeMedio"
-                                    android:text="mas informacion" />
+                                    android:text="mas informacion"
+                                    android:textColor="@color/verdeMedio" />
+
                             </LinearLayout>
 
                         </LinearLayout>
