@@ -3,8 +3,8 @@
     //PRIMERA CAPA ACTIVITY_MAIN
     //Nombre de la aplicacion
     <string name="TituloLogoApp">GREENLAND</string>
-    <string name="tvTituloAM">GREENLAND</string>
-    <string name="tvNova">Desarrollado por Nova, 2024</string>
+    <string name="tvTituloAM.">GREENLAND</string>
+    <string name="tvNova.">Desarrollado por Nova, 2024</string>
     //SECCION NO RECICLAR
     <string name="tvGreenLand">GREENLAND</string>
     <string name="tvNoReciclar">No Reciclables</string>
@@ -19,9 +19,9 @@
     <string name="desPorcelana">Articulos de porcelana rotos dañados</string>
     //BOLSA PLASTICA
     <string name="tvTituloBolsa">BOLSA PLASTICA</string>
-    <string name="desc_horizontal_scroll_view">desc_horizontal_scroll_view</string>
 
     //pichon
+
     //PRIMERA CAPA ACTIVITY_MAIN
     <string name="tvTituloAM">GREENLAND</string>
     <string name="tvNova">Desarrollado por Nova, 2024</string>
