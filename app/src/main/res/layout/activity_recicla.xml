@@ -76,10 +76,11 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/btnSiguiente3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
             android:layout_marginTop="40sp"
             android:backgroundTint="@color/verdeFuerte"
             android:text="@string/btnSiguiente1"

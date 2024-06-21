@@ -47,7 +47,7 @@
             android:text="@string/tvRecicla" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/btnSiguiente2"
             android:layout_width="250dp"
             android:layout_marginTop="55sp"
             android:layout_height="wrap_content"
