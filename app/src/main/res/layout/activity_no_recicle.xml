@@ -19,7 +19,6 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/verdeFuerte"
             android:textColor="@color/blanco"
-            android:layout_margin="10dp"
             android:textSize="18sp"
             android:text="@string/tvGreenLand" />
 
@@ -30,7 +29,7 @@
             android:backgroundTint="@color/verdeFuerte"
             android:textStyle="bold"
             android:textColor="@color/blanco"
-            android:textSize="35sp"
+            android:textSize="25sp"
             android:text="@string/tvNoReciclar" />
 
         <androidx.gridlayout.widget.GridLayout

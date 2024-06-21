@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".TiendaEmprendedoresActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/degradado_fuerte"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/img" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textColor="@color/blanco"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/tvTituloTiendaEmpren" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/img_producto_1" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/montserrat_bold"
+                                android:text="@string/tvNombreProductoTienda" />
+
+                            <TextView
+                                android:id="@+id/textView14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:text="@string/tvDescripcionProductoTienda" />
+
+                            <Button
+                                android:id="@+id/button7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/blanco"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10sp"
+                                android:backgroundTint="@color/verdeFuerte"
+                                android:fontFamily="@font/montserrat_bold"
+                                android:text="@string/btnComprar" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="15sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:padding="10sp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView15"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat_bold"
+                                android:textStyle="bold"
+                                android:text="@string/tvNombreProductoTienda" />
+
+                            <TextView
+                                android:id="@+id/textView16"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:text="@string/tvDescripcionProductoTienda" />
+
+                            <Button
+                                android:id="@+id/button9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/blanco"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10sp"
+                                android:backgroundTint="@color/verdeFuerte"
+                                android:fontFamily="@font/montserrat_bold"
+                                android:text="@string/btnComprar" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_producto_2" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

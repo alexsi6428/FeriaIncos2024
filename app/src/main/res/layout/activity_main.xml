@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/verdeMedio"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -29,7 +29,7 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/verdeMedio"
+            android:textColor="@color/blanco"
             android:textSize="45sp"
             android:backgroundTint="@color/verdeFuerte"
             android:text="@string/tvTituloAM" />

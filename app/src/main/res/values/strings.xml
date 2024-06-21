@@ -18,5 +18,27 @@
     <string name="desInfeccion">Articulos medicos usados</string>
     <string name="desPorcelana">Articulos de porcelana rotos dañados</string>
     //BOLSA PLASTICA
-    <string name="tvTituloBolsa">BOLSA PLASTICA</string>
+    <string name="tvTituloBolsa">CONTAMINACION DE BOLSA PLASTICA</string>
+    <string name="tvTituloArticuloBolsaP1">Bolsas de Plastico</string>
+    <string name="tvParrafoArticuloBolsaP1">La bolsa de plástico es el producto estrella de nuestra cultura de usar y tirar, que malgasta grandes cantidades de materiales y energía para fabricar productos efímeros de un solo uso, muchas veces superfluos.</string>
+    <string name="tvTituloArticuloBolsaP2">Razones para no usarlas</string>
+    <string name="tvParrafoArticuloBolsaP2">Se fabrican a partir del petróleo, un recurso no renovable, costoso, cada vez más escaso y responsable de la emisión de gases de efecto invernadero.</string>
+    <string name="tvParrafoArticuloBolsaP3">Contaminan durante su fabricación y su incineración (dioxinas, cianuro…).</string>
+    <string name="tvParrafoArticuloBolsaP4">Tardan entre 150 y 1000 años en descomponerse.</string>
+    //ENVOLTORIO DE COMIDA
+    <string name="tvTituloEnvoltorio">Envase de comida</string>
+    <string name="tvTituloEnvoltorio1">Contaminacion de alimentos</string>
+    <string name="tvParrafoEnvoltorio1">Los envoltorios suelen estar en contacto directo con alimentos grasos, aceitosos o húmedos. Esta contaminación orgánica puede dificultar el proceso de reciclaje.</string>
+    <string name="tvTituloEnvoltorio2">Revestimiento plastico</string>
+    <string name="tvParrafoEnvoltorio2">Este revestimiento complica el reciclaje, ya que los recicladores tendrían que separar el papel del plástico.</string>
+    <string name="tvTituloEnvoltorio3">Tinta y Adhesivo</string>
+    <string name="tvParrafoEnvoltorio3">Los envoltorios a menudo están impresos con tintas y pueden tener adhesivos que también complican el proceso de reciclaje. Las tintas y los adhesivos pueden contaminar el papel reciclado, haciendo que el producto final sea de menor calidad o inutilizable.</string>
+    //ARTICULOS MEDICOS
+    <string name="tvTituloInfeccioso">Articulos Infecciosos</string>
+
+    //TIENDA EMPRENDEDOR
+    <string name="tvTituloTiendaEmpren">Emprendedores</string>
+    <string name="tvNombreProductoTienda">Nombre Producto</string>
+    <string name="tvDescripcionProductoTienda">Descripcion del producto como materiales, cantidad colores disponibles</string>
+    <string name="btnComprar">Comprar</string>
 </resources>
