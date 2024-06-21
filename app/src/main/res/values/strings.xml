@@ -19,4 +19,9 @@
     <string name="desPorcelana">Articulos de porcelana rotos dañados</string>
     //BOLSA PLASTICA
     <string name="tvTituloBolsa">BOLSA PLASTICA</string>
+    <string name="desc_horizontal_scroll_view">desc_horizontal_scroll_view</string>
+    //fragme
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Plataforma</string>
+    <string name="title_notifications">Notificaciones</string>
 </resources>
