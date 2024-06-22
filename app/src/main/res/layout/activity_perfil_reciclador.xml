@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".Perfil_reciclador">
 
+<<<<<<< HEAD
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perfil del Recolector"
+                android:textSize="26sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_margin="15dp"
+                android:background="@drawable/boder_solid"
+                android:fontFamily="@font/montserrat_italic"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+=======
+>>>>>>> origin/master
 </androidx.constraintlayout.widget.ConstraintLayout>
