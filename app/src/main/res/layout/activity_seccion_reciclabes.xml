@@ -15,10 +15,10 @@
         <LinearLayout
             android:id="@+id/LogoId"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_height="99dp"
             android:background="@drawable/shape_logo"
             android:gravity="center_vertical"
+            android:orientation="horizontal"
             android:padding="16dp">
 
             <ImageView
@@ -30,12 +30,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/tvreciclables"
                 android:textColor="@android:color/white"
                 android:textSize="35sp"
-                android:fontFamily="@font/montserrat_bold"
-                android:text="Reciclables"
-                android:layout_marginStart="10dp" />
+                android:textStyle="bold" />
         </LinearLayout>
 
         <GridLayout
@@ -65,18 +65,20 @@
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/img"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/papeltitulo"
                         android:contentDescription="Icono 1" />
 
                     <Button
+                        android:id="@+id/btnPapel"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Button1"
+                        android:text="@string/btnPapel"
                         android:textSize="19dp"
+                        android:fontFamily="@font/montserrat_bold"
                         android:background="@android:color/white"
-                        android:textColor="@android:color/black" />
+                        android:textColor="@android:color/white" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -95,18 +97,20 @@
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/reciclar1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/aceite"
                         android:contentDescription="Icono 2" />
 
                     <Button
+                        android:id="@+id/btnAceiteCocina"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Button2"
-                        android:textSize="19dp"
+                        android:text="@string/btnAceiteCocina"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/montserrat_bold"
                         android:background="@android:color/white"
-                        android:textColor="@android:color/black" />
+                        android:textColor="@android:color/white" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -125,18 +129,20 @@
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/reciclar1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/organico_titulo"
                         android:contentDescription="Icono 2" />
 
                     <Button
+                        android:id="@+id/btnOrganicos"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Button2"
+                        android:text="@string/btnOrganicos"
                         android:textSize="19dp"
-                        android:background="@android:color/white"
-                        android:textColor="@android:color/black" />
+                        android:fontFamily="@font/montserrat_bold"
+                        android:background="@android:color/black"
+                        android:textColor="@android:color/white" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -154,18 +160,20 @@
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/reciclar1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/vidrio_titulo"
                         android:contentDescription="Icono 2" />
 
                     <Button
+                        android:id="@+id/btnVidrio"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Button2"
+                        android:text="@string/btnVidrio"
                         android:textSize="19dp"
+                        android:fontFamily="@font/montserrat_bold"
                         android:background="@android:color/white"
-                        android:textColor="@android:color/black" />
+                        android:textColor="@android:color/white" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -183,18 +191,20 @@
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/reciclar1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/neumatico_titulo"
                         android:contentDescription="Icono 2" />
 
                     <Button
+                        android:id="@+id/btnNeumaticos"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Button2"
+                        android:text="@string/btnNeumaticos"
                         android:textSize="19dp"
+                        android:fontFamily="@font/montserrat_bold"
                         android:background="@android:color/white"
-                        android:textColor="@android:color/black" />
+                        android:textColor="@android:color/white" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -212,18 +222,20 @@
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/reciclar1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/plasticos_titulo"
                         android:contentDescription="Icono 2" />
 
                     <Button
+                        android:id="@+id/btnPlasticos"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Button2"
+                        android:text="@string/btnPlasticos"
                         android:textSize="19dp"
+                        android:fontFamily="@font/montserrat_bold"
                         android:background="@android:color/white"
-                        android:textColor="@android:color/black" />
+                        android:textColor="@android:color/white" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -241,18 +253,20 @@
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/reciclar1"
-                        android:contentDescription="Icono 2" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/metales_titulo"
+                        android:contentDescription="icono" />
 
                     <Button
+                        android:id="@+id/btnMetales"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Button2"
-                        android:textSize="19dp"
+                        android:text="@string/btnMetales"
+                        android:textSize="19sp"
+                        android:fontFamily="@font/montserrat_bold"
                         android:background="@android:color/white"
-                        android:textColor="@android:color/black" />
+                        android:textColor="@android:color/white" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -270,18 +284,20 @@
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:src="@drawable/reciclar1"
                         android:contentDescription="Icono 2" />
 
                     <Button
+                        android:id="@+id/btnActividades"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Button2"
+                        android:text="@string/btnActividades"
                         android:textSize="19dp"
+                        android:fontFamily="@font/montserrat_bold"
                         android:background="@android:color/white"
-                        android:textColor="@android:color/black" />
+                        android:textColor="@android:color/white" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -299,18 +315,20 @@
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/reciclar1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/electronicos_titulo"
                         android:contentDescription="Icono 2" />
 
                     <Button
+                        android:id="@+id/btnElectronicos"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Button2"
+                        android:text="@string/btnElectronicos"
                         android:textSize="19dp"
+                        android:fontFamily="@font/montserrat_bold"
                         android:background="@android:color/white"
-                        android:textColor="@android:color/black" />
+                        android:textColor="@android:color/white" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -328,18 +346,20 @@
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:src="@drawable/reciclar1"
                         android:contentDescription="Icono 2" />
 
                     <Button
+                        android:id="@+id/btnManualidades"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Button2"
+                        android:text="@string/btnManualidades"
                         android:textSize="19dp"
+                        android:fontFamily="@font/montserrat_bold"
                         android:background="@android:color/white"
-                        android:textColor="@android:color/black" />
+                        android:textColor="@android:color/white" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </GridLayout>

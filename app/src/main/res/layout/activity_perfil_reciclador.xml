@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Perfil_reciclador">
 
+<<<<<<< HEAD
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -35,4 +36,6 @@
 
         </LinearLayout>
     </ScrollView>
+=======
+>>>>>>> origin/master
 </androidx.constraintlayout.widget.ConstraintLayout>

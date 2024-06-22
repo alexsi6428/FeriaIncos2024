@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_logo"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Reciclables"
+            android:textColor="@android:color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imagen1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/cartonpapel"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/headerLayout"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/atitulo1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/TituloPapel"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/imagen1"
+        app:layout_constraintStart_toEndOf="@id/imagen1"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/descripcion1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/VentajasPapelDescripcion"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/atitulo1"
+        app:layout_constraintStart_toStartOf="@id/atitulo1"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagen2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/curiosidadpapel"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/imagen1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/atitulo2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/CuriosidadTituloPapel"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/imagen2"
+        app:layout_constraintStart_toEndOf="@id/imagen2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/descripcion2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/CursiosidadDescripcionPapel"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/atitulo2"
+        app:layout_constraintStart_toStartOf="@id/atitulo2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagen3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/reciclarpapel"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/imagen2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/atitulo3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ReciclarTitulo"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/imagen3"
+        app:layout_constraintStart_toEndOf="@id/imagen3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/descripcion3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ReciclarPapel"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/atitulo3"
+        app:layout_constraintStart_toStartOf="@id/atitulo3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagen4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/noreciclarpapel"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/imagen3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/atitulo4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/NoreciclarTitulo"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/imagen4"
+        app:layout_constraintStart_toEndOf="@id/imagen4"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/descripcion4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/NoReciclarPapel"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/atitulo4"
+        app:layout_constraintStart_toStartOf="@id/atitulo4"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
