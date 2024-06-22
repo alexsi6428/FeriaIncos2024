@@ -316,6 +316,14 @@
                         </androidx.cardview.widget.CardView>
 
                     </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btgaleria"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Noticias"
+                        android:backgroundTint="@color/verdeSuave"
+                        android:layout_margin="30dp"/>
                 </LinearLayout>
 
 
