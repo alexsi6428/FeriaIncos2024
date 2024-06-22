@@ -19,6 +19,43 @@
     <string name="desPorcelana">Articulos de porcelana rotos dañados</string>
     //BOLSA PLASTICA
     <string name="tvTituloBolsa">BOLSA PLASTICA</string>
+    <string name="tvParrafoArticuloBolsaP1">Las bolsas de plástico a menudo están contaminadas con residuos de alimentos, tierra y otros materiales. Limpiar estas bolsas para que sean reciclables es un proceso costoso y complicado.</string>
+    <string name="tvTituloArticuloBolsaP2">Alternativa mas viable</string>
+    <string name="tvParrafoArticuloBolsaP2">En muchos lugares, se prefieren alternativas como el uso de bolsas reutilizables o la prohibición de bolsas de plástico de un solo uso para reducir el problema de raíz. Esto resulta más efectivo desde el punto de vista ambiental y económico.</string>
+    //ENVOLTORIO DE COMIDA
+    <string name="tvTituloEnvoltorio1">Contaminacion</string>
+    <string name="tvParrafoEnvoltorio1">Los envoltorios de comida suelen estar contaminados con restos de alimentos, grasas y aceites. Limpiar estos residuos de manera efectiva para que los envoltorios sean reciclables es un proceso complejo y costoso.</string>
+    <string name="tvTituloEnvoltorio2">Materiales Compuestos</string>
+    <string name="tvParrafoEnvoltorio2">Muchos envoltorios están hechos de materiales compuestos, combinaciones de diferentes tipos de plásticos, aluminio y papel.</string>
+    <string name="tvTituloEnvoltorio3">Bajo valor del material reciclado</string>
+    <string name="tvParrafoEnvoltorio3">El material obtenido del reciclaje de envoltorios de comida suele tener un valor económico bajo. Esto hace que el proceso no sea rentable en comparación con otros materiales reciclables como botellas de PET o latas de aluminio.</string>
+    //ARTICULOS MEDICOS
+    <string name="tvTituloInfeccioso">ARTICULOS INFECCIOSOS</string>
+    <string name="tvTituloParrafoInfeccion1">Contaminacion</string>
+    <string name="tvParrafoInfeccion1">Los artículos médicos, especialmente aquellos utilizados en procedimientos quirúrgicos o tratamientos de pacientes, pueden estar contaminados con sangre, fluidos corporales y otros materiales infecciosos.</string>
+    <string name="tvTituloParrafoInfeccion2">Materiales diversos</string>
+    <string name="tvParrafoInfeeccion2">Los artículos médicos están hechos de una variedad de materiales, incluyendo plásticos, metales, vidrio y compuestos especiales.</string>
+    <string name="tvTituloParrafoInfeccion3">Problemas de calidad y seguridad</string>
+    <string name="tvParrafoInfeccion3">El uso de materiales reciclados en nuevos artículos médicos puede plantear preocupaciones sobre la calidad y la seguridad del producto final.</string>
+    //PORCELANA NO RECICLAR
+    <string name="tvTituloPorcelana">PRODUCTOS DE PORCELANA</string>
+    <string name="tvTituloParrafoPorce1">Composición del material</string>
+    <string name="tvParrafoPorce1">La porcelana y la cerámica están hechas de una mezcla de minerales, incluyendo arcilla, feldespato y cuarzo, que se vitrifican a altas temperaturas.</string>
+    <string name="tvTituloParrafoPorce2">Proceso complicado</string>
+    <string name="tvParrafoPorce2">Para reciclar cerámica y porcelana, sería necesario triturar los materiales en partículas muy finas, lo que requiere equipos especiales.</string>
+    <string name="tvTituloParrafoPorce3">Contaminación y separación</string>
+    <string name="tvParrafoPorce3">La porcelana y la cerámica a menudo están contaminadas con esmaltes, pinturas y otros aditivos que pueden dificultar aún más el proceso de reciclaje. Separar estos contaminantes de manera efectiva es complicado y costoso.</string>
+    //COMPRAR DE LOS EMPRENDEDORES
+    <string name="tvTituloTiendaEmprende">Productos Ecoamigables</string>
+    <string name="tvNombreProductoTienda">Nombre del producto</string>
+    <string name="tvDescripcionProductoTienda">Descripcion de los productos como color, materiales,etc</string>
+    <string name="btnComprar">Comprar</string>
+    //COMPRAR
+    <string name="tvCompraProducto">COMPRA</string>
+    <string name="alDireccionVendedor">Direccion:</string>
+    <string name="alTelefonoVendedor">Telefono:</string>
+    <string name="alNombreProveedor">Nombre del proveedor</string>
+    <string name="alVentasProveedor">Cantidad de articulos vendidos</string>
 
     //pichon
 

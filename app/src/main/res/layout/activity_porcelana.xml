@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
-    tools:context=".ArticulosMedicosActivity">
+    tools:context=".PorcelanaActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
             android:textStyle="bold"
             android:textColor="@color/blanco"
             android:textSize="25sp"
-            android:text="@string/tvTituloInfeccioso" />
+            android:text="@string/tvPorcelana" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -41,9 +41,9 @@
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="0dp"
-                android:layout_height="170dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:src="@drawable/img_infeccion_1" />
+                android:src="@drawable/img_porcelana_1" />
 
             <LinearLayout
                 android:layout_width="200dp"
@@ -58,7 +58,7 @@
                     android:textColor="@color/blanco"
                     android:textSize="14sp"
                     android:fontFamily="@font/montserrat_bold"
-                    android:text="@string/tvTituloParrafoInfeccion1" />
+                    android:text="@string/tvTituloParrafoPorce1" />
 
                 <TextView
                     android:id="@+id/textView3"
@@ -67,7 +67,7 @@
                     android:textColor="@color/blanco"
                     android:textSize="13sp"
                     android:fontFamily="@font/montserrat_medium"
-                    android:text = "@string/tvParrafoInfeccion1" />
+                    android:text = "@string/tvParrafoPorce1" />
 
             </LinearLayout>
         </LinearLayout>
@@ -91,7 +91,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/montserrat_bold"
-                    android:text="@string/tvTituloParrafoInfeccion2"
+                    android:text="@string/tvTituloParrafoPorce2"
                     android:textColor="@color/blanco"
                     android:textSize="14sp" />
 
@@ -101,7 +101,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/montserrat_medium"
-                    android:text="@string/tvParrafoInfeeccion2"
+                    android:text="@string/tvParrafoPorce2"
                     android:textColor="@color/blanco"
                     android:textSize="13sp" />
 
@@ -112,7 +112,7 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:src="@drawable/img_infeccion_2" />
+                android:src="@drawable/img_porcelana_2" />
 
         </LinearLayout>
 
@@ -128,7 +128,7 @@
                 android:layout_width="230dp"
                 android:layout_height="170dp"
                 android:layout_weight="1"
-                android:src="@drawable/img_infeccion_3" />
+                android:src="@drawable/img_porcelana_3" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -145,7 +145,7 @@
                     android:textColor="@color/blanco"
                     android:textStyle="bold"
                     android:fontFamily="@font/montserrat_bold"
-                    android:text="@string/tvTituloParrafoInfeccion3" />
+                    android:text="@string/tvTituloParrafoPorce3" />
 
                 <TextView
                     android:id="@+id/textView8"
@@ -154,7 +154,7 @@
                     android:textColor="@color/blanco"
                     android:textSize="13sp"
                     android:fontFamily="@font/montserrat_medium"
-                    android:text="@string/tvParrafoInfeccion3" />
+                    android:text="@string/tvParrafoPorce3" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
