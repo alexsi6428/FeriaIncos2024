@@ -195,7 +195,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_margin="10dp"
                                     android:fontFamily="@font/montserrat_italic"
-                                    android:text="Recicla ses de casa"
+                                    android:text="Activistas emprenden reciclaje"
                                     android:textSize="16dp" />
 
                                 <TextView
@@ -246,7 +246,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_margin="10dp"
                                     android:fontFamily="@font/montserrat_italic"
-                                    android:text="Recicla ses de casa"
+                                    android:text="Descuido por el medio ambiente"
                                     android:textSize="16dp" />
 
                                 <TextView
@@ -299,7 +299,7 @@
                                     android:layout_margin="10dp"
                                     android:textSize="16dp"
                                     android:fontFamily="@font/montserrat_italic"
-                                    android:text="Recicla ses de casa" />
+                                    android:text="Indices elevados de conataminacion" />
 
                                 <TextView
                                     android:id="@+id/textViw8"
