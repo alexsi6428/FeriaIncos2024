@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Feria"
         tools:targetApi="31">
         <activity
+            android:name=".PerfilEmprendedorrActivity"
+            android:exported="false" />
+        <activity
             android:name=".ForRecolectorActivity"
             android:exported="false" />
         <activity
