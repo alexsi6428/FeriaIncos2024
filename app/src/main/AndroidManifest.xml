@@ -22,6 +22,18 @@
             android:name=".SeccionReciclablesDescripcionActivity"
             android:exported="false" />
         <activity
+            android:name=".ruta_establecidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".recolector_descripcionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Recolector2"
+            android:exported="false" />
+        <activity
+            android:name=".RecolectorActivity"
+            android:exported="false" />
+        <activity
             android:name=".BolsaPlasticaActivity"
             android:exported="false" />
         <activity

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    card_view:cardBackgroundColor="#838E73"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="6dp"
+    card_view:contentPadding="4dp"
+    android:background="@drawable/fondo"
+    tools:context=".CentroAcopioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/textview_background"
+            android:textColor="@color/verdeSuave"
+            android:fontFamily="@font/montserrat_black"
+            android:text="@string/tvTitulo"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvSubtitulo"
+            android:fontFamily="@font/montserrat_black"
+            android:textColor="@color/verdeSuave"
+            android:background="@drawable/textview_background"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="30dp"
+            android:paddingStart="30dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingEnd="30dp"
+            android:textAlignment="center" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="510dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/textview_background"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/item_imageCero"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/ico_producto_porcelana"
+                        android:layout_marginEnd="20dp" />
+
+                    <TextView
+                        android:id="@+id/Nombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="METALICA"
+                        android:textColor="@color/verdeSuave"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageCero"
+                        android:layout_toRightOf="@+id/item_imageCero"
+                        android:layout_alignParentTop="true"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/montserrat_black" />
+
+                    <TextView
+                        android:id="@+id/Direccion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Av. cotoca junto al surtidor  ecogas"
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageCero"
+                        android:layout_toRightOf="@+id/item_imageCero"
+                        android:layout_below="@+id/Nombre"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/montserrat_regular" />
+
+                    <TextView
+                        android:id="@+id/Detalles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reciclamos todo tipo de metales como ser aluminio, bronce, cobre, etc..."
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageCero"
+                        android:layout_toRightOf="@+id/item_imageCero"
+                        android:layout_below="@+id/Direccion"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/montserrat_regular" />
+
+                    <Button
+                        android:id="@+id/btnInfoCA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="INGRESAR"
+                        android:layout_toEndOf="@id/item_imageCero"
+                        android:layout_below="@id/Detalles"
+                        android:backgroundTint="@color/gris"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/textview_background"
+                    android:layout_margin="20dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/item_imageOne"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/ico_producto_porcelana"
+                        android:layout_marginEnd="20dp" />
+
+                    <TextView
+                        android:id="@+id/NombreOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="METALICA"
+                        android:textColor="@color/verdeSuave"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageOne"
+                        android:layout_toRightOf="@+id/item_imageOne"
+                        android:layout_alignParentTop="true"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/montserrat_black" />
+
+                    <TextView
+                        android:id="@+id/DireccionOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Av. cotoca junto al surtidor  ecogas"
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageOne"
+                        android:layout_toRightOf="@+id/item_imageOne"
+                        android:layout_below="@+id/NombreOne"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/montserrat_regular" />
+
+                    <TextView
+                        android:id="@+id/DetallesOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reciclamos todo tipo de metales como ser aluminio, bronce, cobre, etc..."
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageOne"
+                        android:layout_toRightOf="@+id/item_imageOne"
+                        android:layout_below="@+id/DireccionOne"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/montserrat_regular" />
+
+                    <Button
+                        android:id="@+id/btnInfoCAOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="INGRESAR"
+                        android:layout_toEndOf="@id/item_imageOne"
+                        android:layout_below="@id/DetallesOne"
+                        android:backgroundTint="@color/gris"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/textview_background"
+                    android:layout_margin="20dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/item_imageTwo"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/ico_producto_porcelana"
+                        android:layout_marginEnd="20dp" />
+
+                    <TextView
+                        android:id="@+id/NombreTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="METALICA"
+                        android:textColor="@color/verdeSuave"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageTwo"
+                        android:layout_toRightOf="@+id/item_imageTwo"
+                        android:layout_alignParentTop="true"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/montserrat_black" />
+
+                    <TextView
+                        android:id="@+id/DireccionTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Av. cotoca junto al surtidor  ecogas"
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageTwo"
+                        android:layout_toRightOf="@+id/item_imageTwo"
+                        android:layout_below="@+id/NombreTwo"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/montserrat_regular" />
+
+                    <TextView
+                        android:id="@+id/DetallesTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reciclamos todo tipo de metales como ser aluminio, bronce, cobre, etc..."
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageTwo"
+                        android:layout_toRightOf="@+id/item_imageTwo"
+                        android:layout_below="@+id/DireccionTwo"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/montserrat_regular" />
+
+                    <Button
+                        android:id="@+id/btnInfoCATwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="INGRESAR"
+                        android:layout_toEndOf="@id/item_imageTwo"
+                        android:layout_below="@id/DetallesTwo"
+                        android:backgroundTint="@color/gris"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/textview_background"
+                    android:layout_margin="20dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/item_imageThree"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/ico_producto_porcelana"
+                        android:layout_marginEnd="20dp" />
+
+                    <TextView
+                        android:id="@+id/NombreThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="METALICA"
+                        android:textColor="@color/verdeSuave"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageThree"
+                        android:layout_toRightOf="@+id/item_imageThree"
+                        android:layout_alignParentTop="true"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/montserrat_black" />
+
+                    <TextView
+                        android:id="@+id/DireccionThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Av. cotoca junto al surtidor  ecogas"
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageThree"
+                        android:layout_toRightOf="@+id/item_imageThree"
+                        android:layout_below="@+id/NombreThree"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/montserrat_regular" />
+
+                    <TextView
+                        android:id="@+id/DetallesThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reciclamos todo tipo de metales como ser aluminio, bronce, cobre, etc..."
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageThree"
+                        android:layout_toRightOf="@+id/item_imageThree"
+                        android:layout_below="@+id/DireccionThree"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/montserrat_regular" />
+
+                    <Button
+                        android:id="@+id/btnInfoCAThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="INGRESAR"
+                        android:layout_toEndOf="@id/item_imageThree"
+                        android:layout_below="@id/DetallesThree"
+                        android:backgroundTint="@color/gris"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/textview_background"
+                    android:layout_margin="20dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/item_imageFour"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/ico_producto_porcelana"
+                        android:layout_marginEnd="20dp" />
+
+                    <TextView
+                        android:id="@+id/NombreFour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="METALICA"
+                        android:textColor="@color/verdeSuave"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageFour"
+                        android:layout_toRightOf="@+id/item_imageFour"
+                        android:layout_alignParentTop="true"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/montserrat_black" />
+
+                    <TextView
+                        android:id="@+id/DireccionFour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Av. cotoca junto al surtidor  ecogas"
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageFour"
+                        android:layout_toRightOf="@+id/item_imageFour"
+                        android:layout_below="@+id/NombreFour"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/montserrat_regular" />
+
+                    <TextView
+                        android:id="@+id/DetallesFour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reciclamos todo tipo de metales como ser aluminio, bronce, cobre, etc..."
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageFour"
+                        android:layout_toRightOf="@+id/item_imageFour"
+                        android:layout_below="@+id/DireccionFour"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/montserrat_regular" />
+
+                    <Button
+                        android:id="@+id/btnInfoCAFour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="INGRESAR"
+                        android:layout_toEndOf="@id/item_imageFour"
+                        android:layout_below="@id/DetallesFour"
+                        android:backgroundTint="@color/gris"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+
+            <Button
+                android:id="@+id/buttonSIG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btnNext"
+                android:fontFamily="@font/montserrat_regular"
+                android:backgroundTint="@color/verdeSuave"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_margin="5dp" />
+
+            <Button
+                android:id="@+id/button2ATR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btnBack"
+                android:fontFamily="@font/montserrat_regular"
+                android:backgroundTint="@color/verdeSuave"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
