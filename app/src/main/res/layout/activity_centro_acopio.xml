@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    card_view:cardBackgroundColor="#838E73"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="6dp"
+    card_view:contentPadding="4dp"
+    android:background="@drawable/fondo"
+    tools:context=".CentroAcopioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/textview_background"
+            android:textColor="@color/verdeSuave"
+            android:fontFamily="@font/montserrat_black"
+            android:text="@string/tvTitulo"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvSubtitulo"
+            android:fontFamily="@font/montserrat_black"
+            android:textColor="@color/verdeSuave"
+            android:background="@drawable/textview_background"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="30dp"
+            android:paddingStart="30dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingEnd="30dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/textview_background"
+                    android:layout_margin="20dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/item_imageCero"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/ico_producto_porcelana"
+                        android:layout_marginEnd="16dp" />
+
+                    <TextView
+                        android:id="@+id/Nombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre"
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageCero"
+                        android:layout_toRightOf="@+id/item_imageCero"
+                        android:layout_alignParentTop="true"
+                        android:textSize="38sp" />
+
+                    <TextView
+                        android:id="@+id/Detalles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detalles"
+                        android:textColor="@color/verdeSuave"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageCero"
+                        android:layout_toRightOf="@+id/item_imageCero"
+                        android:layout_below="@+id/Nombre"
+                        android:textSize="38sp" />
+
+                    <Button
+                        android:id="@+id/btnInfoCA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="INGRESAR"
+                        android:layout_toEndOf="@id/Detalles" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/textview_background"
+                    android:layout_margin="20dp">
+
+                    <ImageView
+                        android:id="@+id/item_imageOne"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/ico_producto_porcelana"
+                        android:layout_marginEnd="16dp" />
+
+                    <TextView
+                        android:id="@+id/NombreOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre"
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageOne"
+                        android:layout_toRightOf="@+id/item_imageOne"
+                        android:layout_alignParentTop="true"
+                        android:textSize="38sp" />
+
+                    <TextView
+                        android:id="@+id/DetallesOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detalles"
+                        android:textColor="@color/verdeSuave"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageOne"
+                        android:layout_toRightOf="@+id/item_imageOne"
+                        android:layout_below="@+id/NombreOne"
+                        android:textSize="38sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/textview_background"
+                    android:layout_margin="20dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/item_imageThree"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/ico_producto_porcelana"
+                        android:layout_marginEnd="16dp" />
+
+                    <TextView
+                        android:id="@+id/NombreTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre"
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageThree"
+                        android:layout_toRightOf="@+id/item_imageThree"
+                        android:layout_alignParentTop="true"
+                        android:textSize="38sp" />
+
+                    <TextView
+                        android:id="@+id/DetallesTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detalles"
+                        android:textColor="@color/verdeSuave"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageThree"
+                        android:layout_toRightOf="@+id/item_imageThree"
+                        android:layout_below="@+id/NombreTwo"
+                        android:textSize="38sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/textview_background"
+                    android:layout_margin="20dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/item_imageFour"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/ico_producto_porcelana"
+                        android:layout_marginEnd="16dp" />
+
+                    <TextView
+                        android:id="@+id/NombreThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre"
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageFour"
+                        android:layout_toRightOf="@+id/item_imageFour"
+                        android:layout_alignParentTop="true"
+                        android:textSize="38sp" />
+
+                    <TextView
+                        android:id="@+id/DetallesThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detalles"
+                        android:textColor="@color/verdeSuave"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageFour"
+                        android:layout_toRightOf="@+id/item_imageFour"
+                        android:layout_below="@+id/NombreThree"
+                        android:textSize="38sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/textview_background"
+                    android:layout_margin="20dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/item_imageFive"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/ico_producto_porcelana"
+                        android:layout_marginEnd="16dp" />
+
+                    <TextView
+                        android:id="@+id/NombreFour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre"
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageFive"
+                        android:layout_toRightOf="@+id/item_imageFive"
+                        android:layout_alignParentTop="true"
+                        android:textSize="38sp" />
+
+                    <TextView
+                        android:id="@+id/DetallesFour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detalles"
+                        android:textColor="@color/verdeSuave"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageFive"
+                        android:layout_toRightOf="@+id/item_imageFive"
+                        android:layout_below="@+id/NombreFour"
+                        android:textSize="38sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/textview_background"
+                    android:layout_margin="20dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/item_imageSix"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/ico_producto_porcelana"
+                        android:layout_marginEnd="16dp" />
+
+                    <TextView
+                        android:id="@+id/NombreFive"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre"
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageSix"
+                        android:layout_toRightOf="@+id/item_imageSix"
+                        android:layout_alignParentTop="true"
+                        android:textSize="38sp" />
+
+                    <TextView
+                        android:id="@+id/DetallesFive"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detalles"
+                        android:textColor="@color/verdeSuave"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageSix"
+                        android:layout_toRightOf="@+id/item_imageSix"
+                        android:layout_below="@+id/NombreFive"
+                        android:textSize="38sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/textview_background"
+                    android:layout_margin="20dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/item_imageSeven"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/ico_producto_porcelana"
+                        android:layout_marginEnd="16dp" />
+
+                    <TextView
+                        android:id="@+id/NombreSix"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre"
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageSeven"
+                        android:layout_toRightOf="@+id/item_imageSeven"
+                        android:layout_alignParentTop="true"
+                        android:textSize="38sp" />
+
+                    <TextView
+                        android:id="@+id/DetallesSix"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detalles"
+                        android:textColor="@color/verdeSuave"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/item_imageSeven"
+                        android:layout_toRightOf="@+id/item_imageSeven"
+                        android:layout_below="@+id/NombreSix"
+                        android:textSize="38sp" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btnNext"
+                android:fontFamily="@font/montserrat_regular"
+                android:backgroundTint="@color/verdeSuave"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btnBack"
+                android:fontFamily="@font/montserrat_regular"
+                android:backgroundTint="@color/verdeSuave"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
