@@ -6,11 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="30sp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="30dp">
 
         <ImageView
             android:id="@+id/imageView"
@@ -28,21 +31,21 @@
             android:id="@+id/btnGreenland"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/blanco"
-            android:textSize="45sp"
             android:backgroundTint="@color/verdeFuerte"
-            android:text="@string/tvTituloAM" />
+            android:text="@string/tvTituloAM"
+            android:textColor="@color/blanco"
+            android:textSize="45sp" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
+            android:text="@string/tvNova"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:text="@string/tvNova" />
+            android:textStyle="bold" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
