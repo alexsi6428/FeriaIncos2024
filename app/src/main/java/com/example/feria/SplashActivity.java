@@ -11,22 +11,22 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class InicioActivity extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
 Button btnCargar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inicio);
-        btnCargar = findViewById(R.id.btnSiguiente2);
 
+        setContentView(R.layout.activity_splash);
+        btnCargar =findViewById(R.id.btnGreenland);
         btnCargar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent IntentCargar = new Intent(InicioActivity.this, ReciclaActivity.class);
-                startActivity(IntentCargar);
-
+                Intent intentCargar = new Intent(SplashActivity.this,MiViActivity.class);
+                startActivity(intentCargar);
             }
         });
-    }
 
+
+    }
 }

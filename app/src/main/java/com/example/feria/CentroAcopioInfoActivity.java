@@ -6,21 +6,23 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ViewFlipper;
 
-public class Galeria extends AppCompatActivity {
- Button btngale;
+public class CentroAcopioInfoActivity extends AppCompatActivity {
+
+    Button btnBTK;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_galeria);
+        setContentView(R.layout.activity_centro_acopio_info);
 
-        btngale=findViewById(R.id.btgaleria);
-        btngale.setOnClickListener(new View.OnClickListener() {
+        btnBTK=findViewById(R.id.btnVolver);
+
+        btnBTK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentgale=new Intent(Galeria.this, Noticias.class);
-                startActivity(intentgale);
+                Intent intentBTK= new Intent(CentroAcopioInfoActivity.this, CentroAcopioActivity.class);
+                startActivity(intentBTK);
             }
         });
     }
