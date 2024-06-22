@@ -181,4 +181,9 @@ Papel higienico, pañuelo
     //Plastico
     <string name="VentajasPlasticos">
         </string>
+    //Centros de Acopio
+    <string name="tvTitulo">GREENLAND</string>
+    <string name="tvSubtitulo">Centros de Acopio</string>
+    <string name="btnNext">Siguiente</string>
+    <string name="btnBack">Volver</string>
 </resources>
