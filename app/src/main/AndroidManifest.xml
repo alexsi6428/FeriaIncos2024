@@ -13,19 +13,25 @@
         android:theme="@style/Theme.Feria"
         tools:targetApi="31">
         <activity
-            android:name=".ProductosEmprendedorActivity"
+            android:name=".CompraActivity"
             android:exported="false" />
         <activity
-            android:name=".PerfilEmprendedorrActivity"
+            android:name=".PorcelanaActivity"
             android:exported="false" />
         <activity
-            android:name=".ForRecolectorActivity"
+            android:name=".SeccionReciclablesDescripcionActivity"
             android:exported="false" />
         <activity
-            android:name=".ForReciActivity"
+            android:name=".ruta_establecidaActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".recolector_descripcionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Recolector2"
+            android:exported="false" />
+        <activity
+            android:name=".RecolectorActivity"
             android:exported="false" />
         <activity
             android:name=".BolsaPlasticaActivity"
@@ -37,7 +43,7 @@
             android:name=".Seccion_Reciclabes_Activity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
